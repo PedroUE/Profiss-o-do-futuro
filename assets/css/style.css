@@ -4,18 +4,18 @@
   box-sizing: border-box;
 }
 
-/* Configurações gerais */
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: "Mozilla Headline";
+  font-family: "arial";
 }
 
 header {
   background-color: rgb(179, 17, 17);
   color: azure;
-  padding: 60px;  
+  padding: 20px;  
   text-align: center;
 }
 
@@ -38,7 +38,6 @@ main {
 
 #titulo-sobre-mim {
   font-size: 30px;
-  border-bottom: 2px solid rgb(179, 17, 17);
 }
 
 .texto-sobre-mim {
@@ -129,7 +128,7 @@ contact h2 {
     background-color: rgb(179, 17, 17);
     color: whitesmoke;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
   }
 
